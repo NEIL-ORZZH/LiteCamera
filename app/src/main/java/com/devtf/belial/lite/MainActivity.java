@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         openCamera = (Button) findViewById(R.id.open_camera);
         croppedPhoto = (ImageView) findViewById(R.id.display_crop_photo);
         openCamera.setOnClickListener(new View.OnClickListener() {
