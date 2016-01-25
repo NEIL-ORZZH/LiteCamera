@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.CropPhotoActivity">
+
+    <item android:id="@+id/action_confirm"
+        android:title="test"
+        android:orderInCategory="80"
+        android:icon="@drawable/abc_ic_menu_cut"
+        app:showAsAction="ifRoom" />
+
+</menu>
